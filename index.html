@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Testbetrieb Musterbäckerei</title>
+<style>
+  :root { --orange: #f94b04; --blau: #141a46; --grau: #ecedee; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--blau); background: var(--grau); line-height: 1.6; }
+  header { background: var(--blau); color: #fff; padding: 24px 16px; }
+  header h1 { margin: 0; font-size: 28px; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px; display: grid; gap: 16px; }
+  section { background: #fff; border-radius: 10px; padding: 16px 20px; }
+  h2 { margin: 0 0 8px; font-size: 20px; }
+  .hinweis { border-left: 4px solid var(--orange); }
+  table { border-collapse: collapse; width: 100%; }
+  td { padding: 4px 0; }
+  footer { text-align: center; font-size: 13px; padding: 24px 16px; }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="firmenname">Musterbäckerei Dresden</h1>
+  <p>Testseite für die Website-Pflege von Able &amp; Baker. Keine echte Firma.</p>
+</header>
+<main>
+  <section class="hinweis" id="aktuelles">
+    <h2>Aktuelles</h2>
+    <p id="aktuelles-text">Ab Montag gibt es wieder Stollen.</p>
+  </section>
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Telefon: <a id="telefon" href="tel:+493511234567">0351 123 45 67</a><br>
+       E-Mail: <span id="email">hallo@musterbaeckerei.example</span><br>
+       Adresse: <span id="adresse">Musterstraße 1, 01069 Dresden</span></p>
+  </section>
+  <section id="oeffnungszeiten">
+    <h2>Öffnungszeiten</h2>
+    <table>
+      <tr><td>Montag bis Freitag</td><td id="zeit-wochentags">6:00 bis 18:00 Uhr</td></tr>
+      <tr><td>Samstag</td><td id="zeit-samstag">7:00 bis 12:00 Uhr</td></tr>
+      <tr><td>Sonntag</td><td id="zeit-sonntag">geschlossen</td></tr>
+    </table>
+  </section>
+  <section id="angebot">
+    <h2>Unser Angebot</h2>
+    <ul id="angebot-liste">
+      <li>Roggenbrot</li>
+      <li>Dinkelbrötchen</li>
+      <li>Eierschecke</li>
+    </ul>
+  </section>
+</main>
+<footer>Testseite · <a href="impressum.html">Impressum</a></footer>
+</body>
+</html>
